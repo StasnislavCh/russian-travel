@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 162%;
+  line-height: 163%;
   color: #ffffff;
   align-self: start;
 }
@@ -16,6 +16,7 @@
 @media (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
+    line-height: 26px;
   }
   .place__paragraph:nth-of-type(n+2) {
     margin: 25px 0 0;

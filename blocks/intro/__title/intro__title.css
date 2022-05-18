@@ -12,13 +12,12 @@
 @media (max-width: 1023px) {
   .intro__title {
     max-width: 720px;
-    line-height: 61px;
   }
 }
 
 @media (max-width: 767px) {
   .intro__title {
     font-size: 32px;
-    line-height: 37px;
+    line-height: 35px;
   }
 }
