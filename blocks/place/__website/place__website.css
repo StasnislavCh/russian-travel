@@ -1,0 +1,14 @@
+.place__website {
+  max-width: 456px;
+  margin: 0;
+  align-self: end;
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    max-width: 100%;
+    margin: 0 16px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}

@@ -1,0 +1,28 @@
+.footer__links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 18px;
+  width: 465px;
+}
+
+@media (max-width: 1279px) {
+  .footer__links {
+    width: 45.410vw;
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer__links {
+    width: 60.547vw;
+  }
+}
+
+@media  (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    width: auto;
+  }
+}

@@ -1,0 +1,33 @@
+.place__paragraph {
+  margin: 0 ;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 162%;
+  color: #ffffff;
+  align-self: start;
+}
+
+.place__paragraph:nth-of-type(n+2) {
+  margin: 26px 0 0;
+}
+
+@media (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__paragraph:nth-of-type(n+2) {
+    margin: 25px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__paragraph {
+    margin: 0 16px 0;
+    line-height: 26px;
+  }
+  .place__paragraph:nth-of-type(n+2) {
+    margin: 25px 16px 0 16px;
+  }
+}
