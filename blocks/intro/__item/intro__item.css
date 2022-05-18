@@ -1,4 +1,4 @@
-.intro__list_item {
+.intro__item {
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 767px) {
-  .intro__list_item {
+  .intro__item {
     line-height: 116%;
   }
 }
